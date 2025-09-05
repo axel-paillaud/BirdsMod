@@ -1,0 +1,24 @@
+# Build / caches / temporaires
+bin/
+**/AssetPackages/
+**/PackageCache/
+**/Cache/
+**/Thumbs.db
+**/.DS_Store
+**/*.tmp
+**/*.log
+
+# Blender autosaves & backups
+**/*.blend1
+**/*.blend2
+**/*.blend@(*)
+**/*_autosave.blend
+
+# Peinture/éditeur : fichiers lourds temporaires
+**/*.kra~   # Krita backups
+**/*.psd~   # Photoshop backups
+
+# Exports intermédiaires si tu ne veux pas les suivre (optionnel)
+# (Si tu préfères ne versionner que le "gold" des FBX)
+# Modules/MyBirdsMod/Assets/birds/models/*.fbx
+
